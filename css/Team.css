@@ -8,6 +8,7 @@ header {
     padding-inline: 50px;
     padding-top: 20px;
     background-color: #fdbe33;
+    padding-bottom: 30px;
 }
 
 
@@ -78,9 +79,64 @@ nav button:hover {
     width: 80px;
     margin: 0 auto;
 }
+.wed{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.you{
+ display: flex;
+    justify-content: center;
+    color: #fdbe33;
+    margin-top: 80px;
+    font-size: 20px;
+
+}
+
+.mi{
+    display: flex;
+    justify-content: center;
+
+}
+
+.oni{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.repper {
+    background-color: darkblue;
+    padding: 20px;
+
+}
+
+.temi{
+    color: #fdbe33;
+    border-bottom: 2px solid #fdbe33;
+}
+
+.malia{
+    align-items: center;
+    display: flex;
+}
+footer{
+background-color: blue;
+margin-top: 60px;
+
+}
+.scoot{
+display: flex;
 
 
-
+}
+.stylis{
+    display: flex;
+    justify-content: space-between; 
+    margin-inline: 40px;
+}
 @media (max-width: 991px) {
     .header-item {
         display: none;
