@@ -28,6 +28,7 @@ header {
 nav {
     padding-inline: 40px;
     background-color: black;
+    flex-wrap: nowrap;
     margin: 0 auto;
     padding-block: 30px;
     display: flex;
