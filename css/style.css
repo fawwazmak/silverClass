@@ -28,7 +28,7 @@ header {
 nav {
     padding-inline: 40px;
     background-color: black;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding-block: 30px;
     display: flex;
@@ -39,7 +39,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     color: white;
     list-style: none;
