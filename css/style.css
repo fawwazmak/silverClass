@@ -38,6 +38,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
     color: white;
     list-style: none;
